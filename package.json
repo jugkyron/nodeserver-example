@@ -1,0 +1,10 @@
+{
+    "name": "nodeserver-example",
+    "repository": "https://github.com/jugkyron/nodeserver-example",
+    "version": "1.0.0",
+    "description": "Ubuntu & Node.js (server) in Docker i.e. Hello world! example",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    }
+}
