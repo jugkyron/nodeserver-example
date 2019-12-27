@@ -1,5 +1,4 @@
 # nodeserver-example
-# ------------------
 # 
 # * demonstrates docker and nodejs server 
 # * Successful browsing to: 127.0.0.1:5000 prints browser gui: "Hello world!"
@@ -23,8 +22,7 @@ EXPOSE 3000
 ENTRYPOINT ["npm", "start"]
 # End of Dockerfile
 #
-# Example Run
-# -----------
+# Example Run:
 # docker build -t nodejse .
 # docker run -d --rm -p 5000:3000 nodejse
 # Connect your browser to: http://127.0.0.1:5000
